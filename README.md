@@ -1,7 +1,7 @@
 # Sales Analysis
 
 ## Project Overview
-This project analyzes supermarket sales data to extract insights into customer behavior, sales trends, and business performance. The analysis is conducted using Python in Jupyter Notebook, and the results are presented in an HTML file.
+This project analyzes supermarket sales data to extract insights into customer behavior, sales trends, and business performance. The analysis is conducted using Python in Jupyter Notebook, and the results are presented in an HTML file and Jupyter Notebook.
 
 ## Files Included
 1. **sales_analysis.html** - The output report containing visualizations and insights from the analysis.
