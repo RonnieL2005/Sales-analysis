@@ -27,11 +27,11 @@ pip install pandas matplotlib seaborn
 ### Running the Analysis
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/supermarket-sales-analysis.git
+   git clone (https://github.com/RonnieL2005/Sales-analysis.git)
    ```
 2. Navigate to the project directory:
    ```sh
-   cd supermarket-sales-analysis
+   cd sales-analysis
    ```
 3. Run the script:
    ```sh
