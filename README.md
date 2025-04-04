@@ -1,56 +1,49 @@
-# Sales-analysis
-# Supermarket Sales Analysis
+# Sales Analysis
 
-## 📌 Overview
-This project analyzes supermarket sales data to uncover trends, insights, and patterns. The analysis includes revenue calculations, monthly sales trends, and various statistical summaries.
+## Project Overview
+This project analyzes supermarket sales data to extract insights into customer behavior, sales trends, and business performance. The analysis is conducted using Python in Jupyter Notebook, and the results are presented in an HTML file.
 
-## 🔥 Features
-- **Data Cleaning & Preprocessing**: Converts date formats and extracts relevant insights.
-- **Revenue Analysis**: Computes total sales revenue.
-- **Monthly Sales Trend**: Visualizes sales trends over different months.
-- **Statistical Summary**: Provides key descriptive statistics.
-- **Data Visualization**: Uses Matplotlib and Seaborn for insightful charts.
+## Files Included
+1. **sales_analysis.html** - The output report containing visualizations and insights from the analysis.
+2. **supermarket_sales.csv** - The dataset containing supermarket sales records.
 
-## 📂 Dataset
-The dataset (`supermarket_sales.csv`) contains transaction details, including:
-- `Date`: Transaction date
-- `Total`: Total transaction amount
-- `Product Line`, `Quantity`, `Unit Price`: Sales details
+## Data Overview
+The dataset includes details on sales transactions such as:
+- Invoice ID
+- Branch
+- City
+- Customer type
+- Gender
+- Product line
+- Unit price
+- Quantity
+- Total sales
+- Date and Time of purchase
+- Payment method
+- Gross income and margin percentage
+- Customer rating
 
-## 🛠️ Setup & Installation
-### Prerequisites
-Ensure you have Python installed (preferably 3.8+). You also need the following libraries:
-```sh
-pip install pandas matplotlib seaborn
-```
-
-### Running the Analysis
-1. Clone the repository:
-   ```sh
-   git clone (https://github.com/RonnieL2005/Sales-analysis.git)
+## Setup Instructions
+To run this analysis yourself:
+1. Ensure you have Python installed (preferably 3.7+).
+2. Install the necessary libraries using:
+   ```bash
+   pip install pandas matplotlib seaborn jupyter
    ```
-2. Navigate to the project directory:
-   ```sh
-   cd sales-analysis
-   ```
-3. Run the script:
-   ```sh
-   python analysis.py
-   ```
+3. Open Jupyter Notebook and run the analysis script.
+4. The results will be saved as an HTML file.
 
-## 📊 Visualizing Data
-The project generates visual insights, including:
-- A **line plot** for monthly sales trends
-- A **summary of total revenue**
+## Key Insights
+- Total revenue generated from all transactions.
+- Monthly sales trends visualized using line charts.
+- Sales distribution across different branches and customer demographics.
 
-## 🏆 Results & Insights
-- Identifies the best-performing months
-- Provides a detailed breakdown of sales trends
-- Helps in understanding customer purchasing behavior
+## Usage
+- Open **sales_analysis.html** in a web browser to view the insights.
+- Modify the Jupyter Notebook to customize the analysis further.
 
-## 📝 Author
-Developed by [Your Name].
+## Author
+This project was developed to explore sales trends and improve business decision-making using data analysis techniques.
 
-## 📜 License
-This project is licensed under the MIT License.
+
 
